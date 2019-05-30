@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 出神呢
 subtitle:
 description:
 keywords:
-author: John Doe
+author: 屈冰
 language:
 timezone:
 
@@ -75,7 +75,28 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-yilia
 
+# All articles settings
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/bingqu250/bingqu250.github.io.git
+  branch: master
