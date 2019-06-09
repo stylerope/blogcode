@@ -98,5 +98,5 @@ jsonContent:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/bingqu250/bingqu250.github.io.git
+  repository: https://gh_token@github.com/bingqu250/bingqu250.github.io.git
   branch: master
